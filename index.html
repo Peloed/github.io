@@ -8,6 +8,46 @@
     <link href="CSS/login.css" rel="stylesheet" />
   </head>
   <body>
-    <script></script>
+    <div class="box">
+      <p id="greeting">넌 누구니?</p>
+
+      <div id="login-before" class="hidden">
+        <form>
+          <input type="text" placeholder="ID" />
+          <input type="password" required placeholder="Password" />
+          <input type="submit" value="로그인" />
+        </form>
+      </div>
+
+      <div id="login-after" class="hidden">
+        <div>
+          <span id="clock"></span>
+          <div id="quote">
+            <span></span>
+            <span></span>
+          </div>
+          <div id="weather">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+
+      <form id="todo-form">
+        <input
+          type="text"
+          placeholder="Write a To Do and Press Enter"
+          required
+        />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+    <script src="JS/login.js"></script>
+    <script src="JS/background.js"></script>
+
+    <script src="JS/quote.js"></script>
+    <script src="JS/weather.js"></script>
+    <script src="JS/clock.js"></script>
+    <script src="JS/todo.js"></script>
   </body>
 </html>

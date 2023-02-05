@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vw;
+    background-color: whitesmoke;
+    
+}
+.hidden{
+    display:none;
+}
+#greeting{
+    text-align: center;
+    color: white;
+    font-size:x-large;
+}
+span{
+    color: white;
+    font-size: medium;
+}
+
+.box{
+    border: solid 5px;
+    background-color: black;
+    border-radius: 10px;
+    height: 500px;
+    width: 500px;
+    opacity: 1;
+    
+}
+
+.box > form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box > form > input{
+    margin-bottom: 5px;
+}
+
+#quote{
+    display: flex;
+    justify-content: center;
+ 
+    box-sizing: border-box;
+}
+img{
+    opacity: 0.9;
+    width: 250px;
+    height: 250px;
+}
